@@ -1,0 +1,18 @@
+{
+  "L_MIN": 3600.0,
+  "L_MAX": 9824.0,
+  "DLAM": 0.8,
+  "R": 3000.0,
+  "WL_LEN": 7779,
+  "param_order": [
+    "Teff",
+    "logg",
+    "FeH",
+    "aFe",
+    "CFe",
+    "NFe"
+  ],
+  "targets": "log_flux",
+  "target_standardisation": "per_pixel_zscore",
+  "input_standardisation": "per_feature_zscore"
+}
